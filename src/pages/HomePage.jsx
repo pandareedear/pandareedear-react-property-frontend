@@ -1,3 +1,13 @@
+import ButtonGroupSearch from "../feature/ButtonGroupSearch";
+import ButtonQuickSearch from "../feature/ButtonQuickSearch";
+import CarouselPopular from "../feature/CarouselPopular";
+
 export default function HomePage() {
-    return <div className="text-2xl font-bold">HomePage</div>;
+  return (
+    <>
+      <ButtonGroupSearch></ButtonGroupSearch>
+      <ButtonQuickSearch></ButtonQuickSearch>
+      <CarouselPopular></CarouselPopular>
+    </>
+  );
 }
